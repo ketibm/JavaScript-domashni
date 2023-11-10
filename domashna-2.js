@@ -125,4 +125,4 @@ function compareNum(number1, number2) {
   }
 }
 
-compareNum(20, 21);
+compareNum(20, 23);
