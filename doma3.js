@@ -30,11 +30,6 @@ let i = 0;
 for (let i = start; i <= end; i++) {
   console.log(i);}
 
-
-
-// let sumEven = 0
-// console
-
 //  v.
 let person1 = {
   name: "Keti",
