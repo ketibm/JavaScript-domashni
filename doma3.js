@@ -26,9 +26,13 @@ for (let i = 0; i <= 10; i++) {
 //  b.
 let start = 3;
 let end = 10;
-let i = 0;
+let sum = 0;
 for (let i = start; i <= end; i++) {
-  console.log(i);}
+  if (i % 2 === 0) {
+    sum += i;
+  }
+}
+console.log(sum);
 
 //  v.
 let person1 = {
