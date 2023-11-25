@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration User Form</title>
+    <link rel="stylesheet" href="doma72.css" />
+  </head>
+  <body>
+    <h1>Registration User Form</h1>
+    <form name="regForm" onsubmit="registrationUserForm()">
+      <label for="fname">First name:</label><br />
+      <input id="fname" type="text" name="fname" required /><br />
+      <label for="lname">Last name:</label><br />
+      <input id="lname" type="text" name="lname" required /><br />
+      <label for="email">Email:</label><br />
+      <input id="email" type="email" name="email" required /><br />
+      <label for="password">Password:</label><br />
+      <input id="password" type="password" name="password" required /><br />
+      <label for="cpassword">Confirm password:</label><br />
+      <input
+        id="cpassword"
+        type="password"
+        name="cpassword"
+        required
+      /><br /><br />
+      <input id="submit" type="submit" name="submit" value="Register" />
+    </form>
+  </body>
+  <script src="doma72.js"></script>
+</html>

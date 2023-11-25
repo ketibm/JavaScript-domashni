@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  margin: 50px;
+}
+h1 {
+  color: rgb(220, 44, 102);
+  font-size: 40px;
+  font-weight: bold;
+}
+
+input {
+  border: 3px solid rgb(220, 44, 102);
+  background-color: white;
+  cursor: pointer;
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#submit {
+  font-size: 25px;
+  font-weight: bold;
+}
