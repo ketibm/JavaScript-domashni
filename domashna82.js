@@ -29,11 +29,11 @@ function fetchDataCharacters() {
         cardContent.appendChild(status);
         cardContent.className = el.status.toLowerCase();
         // if (el.status === "Alive") {
-        //   content.className = "alive";
+        //   cardContent.className = "alive";
         // } else if (el.status === "Dead") {
-        //   content.className = "dead";
+        //   cardContent.className = "dead";
         // } else {
-        //   content.className = "unknown";
+        //   cardContent.className = "unknown";
         // }
 
         const numberOfEpisodes = document.createElement("p");
